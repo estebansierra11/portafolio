@@ -2,11 +2,15 @@ import "./App.css";
 //import BotonGeneral from "./componentes/botonGeneral.js";
 import BotonDescarga from "./componentes/botonDescarga.js";
 import SectionHabilidad from "./componentes/sectionHabilidad.js";
+import Navegacion from "./componentes/navegacion.js";
 
 function App() {
   return (
+    <>
+    
     <body>
-      <section class="sect">
+    <Navegacion />
+      <section id="section-inicio" class="sect">
         <div class="custom-div">
           <div class="container">
             <div class="content">
@@ -35,13 +39,14 @@ function App() {
             comenzó con la curiosidad de explorar nuevas posibilidades y la
             pasión por crear experiencias digitales impactantes.
           </p>
-          <br/>
+          <br />
 
           <BotonDescarga nombre={"Descargar HV"} href={"./HVEsteban.pdf"} />
         </div>
       </section>
-      <SectionHabilidad/>
+      <SectionHabilidad />
     </body>
+    </>
   );
 }
 
