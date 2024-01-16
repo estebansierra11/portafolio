@@ -1,32 +1,32 @@
+/* Estilos generales para escritorio y dispositivos móviles */
 .App {
   text-align: center;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-*{
+
+* {
   font-family: 'Lato', sans-serif;
-  
-  
 }
+
 body {
   color: white;
-  margin: 60px;
-  
+  margin: 20px; /* Reducido el margen para dispositivos móviles */
 }
-html{
+
+html {
   background-color: #00010B;
   scroll-behavior: smooth;
- 
- 
-  
 }
 
 section {
   width: 100%;
   height: 500px;
   display: flex;
+  flex-direction: row; /* Mantener los .custom-div uno al lado del otro en escritorio */
+  flex-wrap: wrap; /* Permitir envolver a la siguiente línea en dispositivos móviles */
   justify-content: space-between;
-  padding: 20px; /* Aumenta el espacio entre los divs */
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -34,19 +34,14 @@ section {
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
-  
   display: flex;
-  flex-direction: column; /* Ajuste para mostrar los elementos en columna */
+  flex-direction: column;
+  
   justify-content: center;
   align-items: center;
+  width: calc(50% - 20px); /* Ajustar el ancho para que ocupen la mitad del contenedor en escritorio */
 }
-.container {
-  width: 307px;
-  height: 50px;
-}
-.parrafo{
-  line-height: 1.5;
-}
+
 
 .content {
   display: block;
@@ -76,7 +71,8 @@ section {
   right: 0;
 }
 
-.content__container:after, .content__container:before {
+.content__container:after,
+.content__container:before {
   position: absolute;
   top: -2px;
   color: #5468FF;
@@ -162,17 +158,17 @@ h2 {
 .animacion:before,
 .animacion:after {
   color: #5468FF;
-  content: "<";
+  content: "[";
   opacity: 0;
-  font-size: 1.8em; /* Tamaño de fuente más grande */
-  margin-right: 0.3em; /* Espacio entre la palabra y el corchete */
-  animation: fadeInOut 2s infinite; /* Animación infinita */
+  font-size: 1.8em;
+  margin-right: 0.3em;
+  animation: fadeInOut 2s infinite;
 }
 
 .animacion:after {
-  content: "/>";
-  font-size: 1.8em; /* Tamaño de fuente más grande */
-  margin-left: 0.3em; /* Espacio entre la palabra y el corchete */
+  content: "]";
+  font-size: 1.8em;
+  margin-left: 0.3em;
 }
 
 @keyframes fadeInOut {
@@ -181,5 +177,80 @@ h2 {
   }
   50% {
       opacity: 1;
+  }
+}
+.sect{
+  padding-top: 200px;
+}
+
+
+/* Estilo general de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Riel de la barra de desplazamiento (la "pista") */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Parte superior e inferior de la barra de desplazamiento (los "botones") */
+::-webkit-scrollbar-button {
+  background-color: #ccc;
+}
+
+/* Mango o pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #031072;
+  border-radius: 6px;
+}
+
+/* Estilo al pasar el ratón sobre la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #031072;
+}
+
+.contenedor-redondo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .parrafo{
+    text-align: center;
+  }
+  body {
+    margin: 10px; /* Ajuste de margen para dispositivos móviles */
+  }
+
+  section {
+    padding: 10px; /* Ajuste de espaciado para dispositivos móviles */
+  }
+
+  .custom-div {
+    width: calc(100% - 20px); /* Ocupar el ancho completo en dispositivos móviles */
+    margin-bottom: 20px; /* Añadir espacio entre los .custom-div en dispositivos móviles */
+  }
+  h2{
+    font-size: 20px;
+  }
+  .sect{
+    padding-top: 130px;
+    padding-bottom: 500px;
+  }
+  .contenedor-redondo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
   }
 }

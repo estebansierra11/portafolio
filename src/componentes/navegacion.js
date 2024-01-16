@@ -1,17 +1,41 @@
-import React from "react";
+// Navegacion.jsx
+import React, { useState } from "react";
 import "../estilosComponentes/navegacion.css";
 
-
 const Navegacion = () => {
-  return  <nav class="navbar">
-  <a href="#section-inicio" class="nav-item">Inicio</a>
-  <a href="#section-habilidad" class="nav-item">Proyectos</a>
-  <a href="#" class="nav-item">Habilidades</a>
-  <a href="#" class="nav-item">Experiencia</a>
-  <a href="#" class="nav-item">Estudios</a>
-  <a href="#" class="nav-item">Contacto</a>
-</nav>
-  
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
+
+  return (
+    <>
+      <button onClick={toggleMenu} id="menu-toggle" className="menu-button">
+        ☰
+      </button>
+      <nav className={`navbar ${menuVisible ? "show-menu" : ""}`}>
+        <a href="#section-inicio" className="nav-item">
+          Inicio
+        </a>
+        <a href="#section-proyecto" className="nav-item">
+          Proyectos
+        </a>
+        <a href="#section-habilidad" className="nav-item">
+          Habilidades
+        </a>
+        <a href="#" className="nav-item">
+          Experiencia
+        </a>
+        <a href="#" className="nav-item">
+          Estudios
+        </a>
+        <a href="#" className="nav-item">
+          Contacto
+        </a>
+      </nav>
+    </>
+  );
 };
 
 export default Navegacion;

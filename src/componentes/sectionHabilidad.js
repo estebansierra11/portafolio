@@ -3,115 +3,114 @@ import "../estilosComponentes/sectionHabilidad.css";
 import miImagen from "../imagenes/iconReact.png";
 import miImagen2 from "../imagenes/proyecto2.png";
 import miImagen3 from "../imagenes/proyecto1.png";
-import css from "../imagenes/css.png";
+import css from "../imagenes/css2.png";
 import html from "../imagenes/html.png";
-import jquery from "../imagenes/jquery.png";
-import js from "../imagenes/js.png";
-import mysql from "../imagenes/mysql.png";
+import jquery from "../imagenes/jquery2.png";
+import js from "../imagenes/java.png";
+import mysql from "../imagenes/mysql2.png";
 import node from "../imagenes/node.png";
-import php from "../imagenes/php.png";
-import boots from "../imagenes/boots.png";
+import php from "../imagenes/php2.png";
+import boots from "../imagenes/boots2.png";
+import portf from "../imagenes/portf.png";
+import powerbi from "../imagenes/powerbi.png";
+import excel from "../imagenes/excel.png";
+import git from "../imagenes/git.png";
+import access from "../imagenes/access.png";
+import react2 from "../imagenes/react2.png";
+import wordpress from "../imagenes/wordpress.png";
 
 const SectionHabilidad = () => {
   return (
-    <div>
-      <div
-        style={{ display: "flex", justifyContent: "center" }}
-        class="animacion"
-      >
-        <h2 className="h1-proyectos">PROYECTOS WEB</h2>
+    <section
+      style={{ paddingTop: "140px" }}
+      id="section-habilidad"
+      className="sect-habilidades"
+    >
+      <div class="custom-div">
+        <div
+          style={{ display: "flex", justifyContent: "center" }}
+          class="animacion"
+        >
+          <h2 className="h1-proyectos">HABILIDADES</h2>
+        </div>
       </div>
-      <section id="section-habilidad" className="sect-habilidad">
-        <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <img
-                class="img-habilidad"
-                src={miImagen3}
-                alt="Proyecto noticias"
-              />
-            </div>
-            <div class="card-description">
-              <p class="text-title">Noticiero</p>
-              <p class="text-body">
-                Pagina web de noticiero con distintas secciones y modulos.
-              </p>
-              <div class="image-container">
-                <img src={html} alt="Imagen 1" class="round-image" />
-                <img src={js} alt="Imagen 1" class="round-image" />
-                <img src={css} alt="Imagen 1" class="round-image" />
-                <img src={php} alt="Imagen 1" class="round-image" />
-                <img src={mysql} alt="Imagen 1" class="round-image" />
-              </div>
-            </div>
+      <div
+        class="custom-div"
+        style={{
+          background: "linear-gradient(225deg, #00010a, #00010c)",
+          boxShadow: "-50px 50px 100px #000004, 50px -50px 100px #000212",
+          borderRadius: "37px",
+        }}
+      >
+        <div class="contenedor-h">
+          <div class="columna-h">
+            <img src={js} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Javascript</label>
+          </div>
+          <div class="columna-h">
+            <img src={react2} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>React</label>
+          </div>
+          <div class="columna-h">
+            <img src={php} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Php</label>
+          </div>
+          <div class="columna-h">
+            <img src={node} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Node js</label>
+          </div>
+          <div class="columna-h">
+            <img src={html} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Html</label>
+          </div>
+          <div class="columna-h">
+            <img src={mysql} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Mysql</label>
+          </div>
+          <div class="columna-h">
+            <img src={boots} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Bootstrap</label>
+          </div>
+          <div class="columna-h">
+            <img src={css} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Css</label>
+          </div>
+          <div class="columna-h">
+            <img src={powerbi} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Power bi</label>
+          </div>
+          <div class="columna-h">
+            <img src={excel} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Excel</label>
+          </div>
+          <div class="columna-h">
+            <img src={git} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Git</label>
+          </div>
+          <div class="columna-h">
+            <img src={access} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Access</label>
+          </div>
+          <div class="columna-h">
+            <img src={jquery} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Jquery</label>
           </div>
         </div>
-        <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <img
-                class="img-habilidad"
-                src={miImagen2}
-                alt="Proyecto noticias"
-              />
-            </div>
-            <div class="card-description">
-              <p class="text-title">Buscador de recetas</p>
-              <p class="text-body">
-                Pagina con buscador de receta mediante consumo de API.
-              </p>
-              <div class="image-container">
-                <img src={miImagen} alt="Imagen 1" class="round-image" />
-                <img src={boots} alt="Imagen 1" class="round-image" />
-                <img src={css} alt="Imagen 1" class="round-image" />
-                <img src={js} alt="Imagen 1" class="round-image" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <img
-                class="img-habilidad"
-                src={miImagen2}
-                alt="Proyecto noticias"
-              />
-            </div>
-            <div class="card-description">
-              <p class="text-title">Buscador de recetas</p>
-              <p class="text-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-              <div class="image-container">
-                <img src={jquery} alt="Imagen 1" class="round-image" />
-                <img src={mysql} alt="Imagen 1" class="round-image" />
-                <img src={node} alt="Imagen 1" class="round-image" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <img
-                class="img-habilidad"
-                src={miImagen2}
-                alt="Proyecto noticias"
-              />
-            </div>
-            <div class="card-description">
-              <p class="text-title">Buscador de recetas</p>
-              <p class="text-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
