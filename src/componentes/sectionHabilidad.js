@@ -1,8 +1,5 @@
 import React from "react";
 import "../estilosComponentes/sectionHabilidad.css";
-import miImagen from "../imagenes/iconReact.png";
-import miImagen2 from "../imagenes/proyecto2.png";
-import miImagen3 from "../imagenes/proyecto1.png";
 import css from "../imagenes/css2.png";
 import html from "../imagenes/html.png";
 import jquery from "../imagenes/jquery2.png";
@@ -11,7 +8,6 @@ import mysql from "../imagenes/mysql2.png";
 import node from "../imagenes/node.png";
 import php from "../imagenes/php2.png";
 import boots from "../imagenes/boots2.png";
-import portf from "../imagenes/portf.png";
 import powerbi from "../imagenes/powerbi.png";
 import excel from "../imagenes/excel.png";
 import git from "../imagenes/git.png";
@@ -107,6 +103,11 @@ const SectionHabilidad = () => {
             <img src={jquery} alt="Imagen 1" class="image-habilidad-h" />
             <br />
             <label>Jquery</label>
+          </div>
+          <div class="columna-h">
+            <img src={wordpress} alt="Imagen 1" class="image-habilidad-h" />
+            <br />
+            <label>Wordpress</label>
           </div>
         </div>
       </div>

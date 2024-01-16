@@ -5,10 +5,10 @@ import miImagen2 from "../imagenes/proyecto2.png";
 import miImagen3 from "../imagenes/proyecto1.png";
 import css from "../imagenes/css.png";
 import html from "../imagenes/html.png";
-import jquery from "../imagenes/jquery.png";
+
 import js from "../imagenes/js.png";
 import mysql from "../imagenes/mysql.png";
-import node from "../imagenes/node.png";
+
 import php from "../imagenes/php.png";
 import boots from "../imagenes/boots.png";
 import portf from "../imagenes/portf.png";
