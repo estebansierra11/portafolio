@@ -7,7 +7,7 @@ const SectionEstudios = () => {
     <section
       style={{ paddingTop: "140px" }}
       id="section-estudios"
-      className="sect-estudios"
+      className="sect-estudi"
     >
    
 
