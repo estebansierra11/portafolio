@@ -25,7 +25,7 @@ function App() {
           </div>
           <div className="custom-div">
             <div class="animacion">
-              <h2>DESARROLLADOR WEBBBB</h2>
+              <h2>DESARROLLADOR WEB</h2>
             </div>
             <br />
             <p className="parrafo">
