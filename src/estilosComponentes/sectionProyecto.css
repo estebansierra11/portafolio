@@ -24,7 +24,7 @@ section {
   .img-habilidad{
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
   }
 
   .sect-habilidad {

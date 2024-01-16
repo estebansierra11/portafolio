@@ -13,15 +13,11 @@ function App() {
     <>
       <body>
         <Navegacion />
-        <section
-          
-          id="section-inicio"
-          class="sect"
-        >
+        <section id="section-inicio" class="sect">
           <div class="custom-div">
-          <div class="contenedor-redondo">
-    <img src={perfil} alt="Foto" className="foto"/>
-  </div>
+            <div class="contenedor-redondo">
+              <img src={perfil} alt="Foto" className="foto" />
+            </div>
           </div>
           <div className="custom-div">
             <div class="animacion">
