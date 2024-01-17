@@ -236,6 +236,9 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+  .sect{
+    padding: 0px;
+  }
   .parrafo{
     text-align: center;
   }

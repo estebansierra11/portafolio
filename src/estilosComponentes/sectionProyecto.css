@@ -24,7 +24,7 @@ section {
   .img-habilidad{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    
   }
 
   .sect-habilidad {
@@ -116,6 +116,7 @@ section {
 @media (max-width: 620px){
   .sect-habilidad {
     grid-template-columns: 1fr;
+    padding: 0px;
   }
   .column {
   
@@ -132,9 +133,10 @@ section {
 @media (max-width: 462px){
   .sect-habilidad {
     grid-template-columns: 1fr;
+    padding: 0px;
   }
   .column {
-  height: 250px;
+  height: 230px;
   width: 100%;
    
 }

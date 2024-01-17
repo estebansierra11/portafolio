@@ -71,12 +71,14 @@
       position: fixed;
       width: 100%;
       background-color: #00010B;
-      top: 17%; /* Centro verticalmente */
+      top: 0; /* Centro verticalmente */
       left: 50%;
       z-index: 1000;
-      transform: translate(-50%, -50%); /* Centrar horizontalmente y verticalmente */
+      transform: translate(-50%, 0); /* Centrar horizontalmente y verticalmente */
       flex-direction: column;
       align-items: center;
+      padding: 10px;
+      margin: 0;
     }
   
     .nav-item {

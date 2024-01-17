@@ -16,7 +16,7 @@ import sistemaPortf from "../imagenes/sistemaPortf.png";
 
 const SectionProyecto = () => {
   return (
-    <div style={{ paddingTop: "310px" }}>
+    <div style={{ paddingTop: "380px" }}>
       <div
         style={{ display: "flex", justifyContent: "center" }}
         class="animacion"
