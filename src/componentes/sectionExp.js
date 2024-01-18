@@ -20,11 +20,11 @@ const SectionEstudios = () => {
       <div id="contenedor">
         <div id="contenedor-interno">
           <div id="contenido1">
-            <h2>BATERIAS WILLARD</h2>
-            <label>04/07/2023 - 03/01/2024</label>
+            <h2>Desarrollador web</h2>
+            <label style={{fontSize:"13px"}}>04/07/2023 - 03/01/2024</label>
           </div>
           <div id="contenido2">
-            <h3>DESARROLLADOR WEB</h3>
+            <h3>Baterias Willard</h3>
             <br />
             <p id="parrafo-exp" className="parrafo">
               Desarrollo del software web (Backend y FrontEnd) interno de la
