@@ -18,13 +18,14 @@ const Navegacion = () => {
         <a href="#section-inicio" className="nav-item">
           Inicio
         </a>
-        <a href="#section-proyecto" className="nav-item">
-          Proyectos
-        </a>
         <a href="#section-habilidad" className="nav-item">
           Habilidades
         </a>
-        <a href="#" className="nav-item">
+        <a href="#section-proyecto" className="nav-item">
+          Proyectos
+        </a>
+
+        <a href="#section-exp" className="nav-item">
           Experiencia
         </a>
         <a href="#" className="nav-item">

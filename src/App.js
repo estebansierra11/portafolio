@@ -6,6 +6,7 @@ import SectionProyecto from "./componentes/sectionProyecto.js";
 import Navegacion from "./componentes/navegacion.js";
 import BotonWhatsapp from "./componentes/botonWhatsapp.js";
 import SectionEstudios from "./componentes/sectionEstudios.js";
+import SectionExp from "./componentes/sectionExp.js";
 import perfil from "./imagenes/perfil.jpg";
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
         </section>
         <SectionHabilidad />
         <SectionProyecto />
-        <SectionEstudios />
+        <SectionExp />
       </body>
       <BotonWhatsapp />
     </>
