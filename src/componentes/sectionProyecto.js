@@ -36,7 +36,7 @@ const SectionProyecto = () => {
             <div class="card-description">
               <p class="text-title">Noticiero</p>
               <p class="text-body">
-                Pagina web de noticiero con distintas secciones y modulos.
+                Noticiero sobre desastres naturales con distintas secciones y módulos.
               </p>
               <div class="image-container">
                 <img src={html} alt="Imagen 1" class="round-image" />
@@ -60,7 +60,7 @@ const SectionProyecto = () => {
             <div class="card-description">
               <p class="text-title">Buscador de recetas</p>
               <p class="text-body">
-                Pagina moderna con buscador de receta mediante consumo de API.
+                Página moderna con buscador de receta mediante consumo de API.
               </p>
               <div class="image-container">
                 <img src={miImagen} alt="Imagen 1" class="round-image" />
@@ -79,8 +79,8 @@ const SectionProyecto = () => {
             <div class="card-description">
               <p class="text-title">Portafolio web</p>
               <p class="text-body">
-                Portafolio web con distintas secciones con informacion
-                profesaional y personal.
+                Portafolio web con distintas secciones con información
+                profesional y personal.
               </p>
               <div class="image-container">
                 <img src={miImagen} alt="Imagen 1" class="round-image" />
@@ -104,7 +104,7 @@ const SectionProyecto = () => {
             <div class="card-description">
               <p class="text-title">Red social de albumes</p>
               <p class="text-body">
-                Gestion de contenido y perfil de cada usuario, cuenta con feed
+                Gestión de contenido y perfil de cada usuario, cuenta con feed
                 en inicio.
               </p>
               <div class="image-container">

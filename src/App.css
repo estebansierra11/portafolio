@@ -269,3 +269,10 @@ h2 {
     overflow: hidden;
   }
 }
+
+@media screen and (min-width: 1485px) {
+  body {
+    max-width: 1500px;
+    margin: 0 auto; /* Esto centra el contenido en la página */
+  }
+}
