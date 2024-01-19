@@ -18,7 +18,7 @@ import wordpress from "../imagenes/wordpress.png";
 const SectionHabilidad = () => {
   return (
     <section
-      style={{ paddingTop: "140px" }}
+      style={{ paddingTop: "187px" }}
       id="section-habilidad"
       className="sect-habilidades"
     >
@@ -34,7 +34,7 @@ const SectionHabilidad = () => {
         class="custom-div"
         style={{
           background: "linear-gradient(225deg, #00010a, #00010c)",
-          boxShadow: "-50px 50px 100px #000004, 50px -50px 100px #000212",
+          boxShadow: "0 0 20px 1px #652ec7",
           borderRadius: "37px",
         }}
       >
