@@ -108,7 +108,7 @@ const SectionProyecto = () => {
                 en inicio.
               </p>
               <div class="image-container">
-                <img src={miImagen} alt="Imagen 1" class="round-image" />
+                <img src={php} alt="Imagen 1" class="round-image" />
                 <img src={mysql} alt="Imagen 1" class="round-image" />
                 <img src={html} alt="Imagen 1" class="round-image" />
                 <img src={css} alt="Imagen 1" class="round-image" />
