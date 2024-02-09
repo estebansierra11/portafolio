@@ -48,6 +48,12 @@
         height: auto; /* Ajustar la altura automáticamente */
       }
   }
+  @media (max-width: 999px) {
+    
+    #exp-animado{
+        padding-top: 620px;
+    }
+  }
 
   @media (max-width: 620px) {
     #contenedor-interno {
@@ -57,7 +63,7 @@
       height: auto; /* Ajustar la altura automáticamente */
     }
     #exp-animado{
-        padding-top: 700px;
+        padding-top: 870px;
     }
 
     #contenido1,
