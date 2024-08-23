@@ -42,6 +42,28 @@ const SectionEstudios = () => {
           </div>
         </div>
       </div>
+
+
+
+      <div id="contenedor">
+        <div id="contenedor-interno">
+          <div id="contenido1">
+            <h2>Analista o Gestor de base de datos</h2>
+            <label style={{fontSize:"13px"}}>08/04/2024 - ACTUAL</label>
+          </div>
+          <div id="contenido2">
+            <h3>Ises Ingenieria y Soluciones</h3>
+            <br />
+            <p id="parrafo-exp" className="parrafo">
+            RECIBIR, GESTIONAR Y EJECUTAR LA EXTRACCION DE
+INFORMACION DE LA BASE DE DATOS A TRAVES DE
+CONSULTAS O PROCEDIMIENTOS ALMACENADOS QUE SE
+REQUIERA, CON EL FIN DE ANALIZAR Y ENTREGAR EL
+PRODUCTO SOLICITADO,BRINDANDO APOYO
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
